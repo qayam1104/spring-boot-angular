@@ -1,0 +1,12 @@
+.container{
+   height: fit-content;
+    width: fit-content;
+    
+}
+.tab{
+background-color:green;
+ color:white;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+align-self: start;
+text-align: left;
+}

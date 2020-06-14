@@ -1,0 +1,20 @@
+<br>
+
+   <form class="form-inline" (ngSubmit)="onSubmit()"#userForm="ngForm">
+   <div class="form-group mx-sm-3 mb-2">
+    <label for="inputDeptId" class="sr-only">Enter Dept Id</label>
+    <input type="text" class="form-control" id="Id" [(ngModel)]="inputDeptId" name="deptId" placeholder="Enter Dept Id">
+
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+  
+</form>
+
+
+
+
+    
+<router-outlet></router-outlet>
+    
+   
+
